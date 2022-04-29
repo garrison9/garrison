@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title> THE GARRISON</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <h2>THE</h2>
+                <h1>GARRISON</h1>
+                <h3>CAFE & HOMESTAY</h3>
+                <p>
+                    FELL YOURSELF AT HOME WITH US</p>
+                <nav>
+                    <ul>
+                        <li><a href="home.html" class="fa fa-home" aria-hidden="true"><span class="label">Facebook</span></a></li>
+                        <li><a href="https://www.instagram.com/the_garrisoncafe/" class="fab fa-instagram"><span class="label"></span></a></li>
+                        <li><a href="pics.html" class="fas fa-image"><span class="label">Dribbble</span></a></li>
+                        <li><a href="form.html" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            document.body.classList.remove('is-preload');
+        }
+        window.ontouchmove = function() {
+            return false;
+        }
+        window.onorientationchange = function() {
+            document.body.scrollTop = 0;
+        }
+        document.querySelector('#contact-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            e.target.elements.name.value = '';
+            e.target.elements.email.value = '';
+            e.target.elements.message.value = '';
+        });
+    </script>
+</body>
+
+</html>

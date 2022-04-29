@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>THE CROODS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/a2/1.css" />
+    <noscript><link rel="stylesheet" href="/a2/2.css" /></noscript>
+</head>
+<style>
+    #mypic {
+        border-radius: 30%;
+        height: 149px;
+        width: 160px;
+    }
+</style>
+
+<article id="contact">
+    <h2 class="major">Contact</h2>
+    <form action="https://getform.io/f/eec7af1e-d10d-4af4-af81-9a80b56a5599" method="post">
+        <div class="fields">
+            <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required/>
+            </div>
+            <div class="field half">
+                <label for="Phno">Mobile Number</label>
+                <input type="number" name="phno" id="phno" required/>
+            </div>
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" required></textarea>
+            </div>
+        </div>
+        <ul class="actions">
+            <li><button onclick="reDir()">Send Message</button>
+            </li>
+            <li><input type="reset" value="Reset" /></li>
+        </ul>
+    </form>
+    <p>
+        Contact:- +91 7876732874<br> Email:- toneemetalhead420@gmail.com
+    </p>
+    <p>
+        Address: Vill-shilha p. O-barshaini, Sosan, Himachal Pradesh 175105
+    </p>
+    <ul class="icons">
+        <li><a href="https://www.instagram.com/to_the_tomorrow/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+    </ul>
+</article>
+
+
+
+<!-- Scripts -->
+<script src="a2/js/breakpoints.min.js"></script>
+<script src="a2/js/browser.min.js "></script>
+<script src="a2/js/jquery.min.js"></script>
+<script src="a2/js/main.js"></script>
+<script src="a2/js/util.js"></script>
+
+</body>
+
+</html>
